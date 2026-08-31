@@ -1,0 +1,557 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Thuba | Quality Spare Parts</title>
+
+    <meta name="description"
+          content="Thuba supplies new and quality second-hand pumps and nozzles in Lusaka.">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVIGATION ================= -->
+
+    <header class="navbar">
+
+        <div class="container nav-content">
+
+            <a href="#home" class="logo">
+                THUBA
+            </a>
+
+            <nav class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#products">Products</a>
+                <a href="#about">About Us</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <a href="#products" class="nav-button">
+                Shop Now
+            </a>
+
+            <button class="menu-button" id="menu-button">
+                ☰
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="container hero-content">
+
+                <div class="hero-text">
+
+                    <span class="hero-label">
+                        QUALITY SPARE PARTS
+                    </span>
+
+                    <h1>
+                        Reliable Parts.
+                        <span>Better Deals.</span>
+                    </h1>
+
+                    <p>
+                        New and quality second-hand
+                        pumps and nozzles you can depend on.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="#products" class="btn btn-primary">
+                            Explore Products
+                        </a>
+
+                        <a href="#contact" class="btn btn-secondary">
+                            Contact Us
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="hero-image">
+
+                    <div class="image-placeholder">
+                        <span>THUBA</span>
+                        <small>Business Image</small>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SERVICES ================= -->
+
+        <section class="services">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span>WHAT WE OFFER</span>
+
+                    <h2>
+                        Quality Parts For Your Needs
+                    </h2>
+
+                </div>
+
+
+                <div class="service-grid">
+
+                    <div class="service-card">
+
+                        <div class="service-icon">
+                            ⚙
+                        </div>
+
+                        <h3>Spare Parts</h3>
+
+                        <p>
+                            A selection of new and quality
+                            second-hand spare parts.
+                        </p>
+
+                    </div>
+
+
+                    <div class="service-card">
+
+                        <div class="service-icon">
+                            ◉
+                        </div>
+
+                        <h3>Pumps</h3>
+
+                        <p>
+                            Reliable pumps suitable for
+                            different applications.
+                        </p>
+
+                    </div>
+
+
+                    <div class="service-card">
+
+                        <div class="service-icon">
+                            ◎
+                        </div>
+
+                        <h3>Nozzles</h3>
+
+                        <p>
+                            Quality nozzles available
+                            at competitive prices.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PRODUCTS ================= -->
+
+        <section class="products" id="products">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span>OUR PRODUCTS</span>
+
+                    <h2>
+                        Featured Parts
+                    </h2>
+
+                    <p>
+                        Browse some of our available products.
+                        Contact us to confirm availability.
+                    </p>
+
+                </div>
+
+
+                <div class="product-grid">
+
+
+                    <!-- PRODUCT 1 -->
+
+                    <article class="product-card">
+
+                        <div class="product-image">
+                            <span>Product Image</span>
+                        </div>
+
+                        <div class="product-info">
+
+                            <span class="product-condition">
+                                GOOD SECOND HAND
+                            </span>
+
+                            <h3>
+                                Fuel Pump
+                            </h3>
+
+                            <p>
+                                Quality second-hand pump
+                                in good working condition.
+                            </p>
+
+                            <div class="product-bottom">
+
+                                <strong>
+                                    Price on Request
+                                </strong>
+
+                                <button class="order-button"
+                                        onclick="orderProduct('Fuel Pump')">
+                                    Order
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PRODUCT 2 -->
+
+                    <article class="product-card">
+
+                        <div class="product-image">
+                            <span>Product Image</span>
+                        </div>
+
+                        <div class="product-info">
+
+                            <span class="product-condition">
+                                NEW
+                            </span>
+
+                            <h3>
+                                Diesel Nozzle
+                            </h3>
+
+                            <p>
+                                Quality nozzle suitable
+                                for diesel applications.
+                            </p>
+
+                            <div class="product-bottom">
+
+                                <strong>
+                                    Price on Request
+                                </strong>
+
+                                <button class="order-button"
+                                        onclick="orderProduct('Diesel Nozzle')">
+                                    Order
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PRODUCT 3 -->
+
+                    <article class="product-card">
+
+                        <div class="product-image">
+                            <span>Product Image</span>
+                        </div>
+
+                        <div class="product-info">
+
+                            <span class="product-condition">
+                                SECOND HAND
+                            </span>
+
+                            <h3>
+                                Spare Part
+                            </h3>
+
+                            <p>
+                                Quality used spare part
+                                available at a good price.
+                            </p>
+
+                            <div class="product-bottom">
+
+                                <strong>
+                                    Price on Request
+                                </strong>
+
+                                <button class="order-button"
+                                        onclick="orderProduct('Spare Part')">
+                                    Order
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+
+        <section class="about" id="about">
+
+            <div class="container about-content">
+
+                <div class="about-image">
+
+                    <div class="image-placeholder">
+                        <span>THUBA</span>
+                        <small>Shop Image</small>
+                    </div>
+
+                </div>
+
+
+                <div class="about-text">
+
+                    <span class="section-label">
+                        ABOUT THUBA
+                    </span>
+
+                    <h2>
+                        Parts You Can Trust.
+                    </h2>
+
+                    <p>
+                        Thuba provides customers with new and
+                        quality second-hand spare parts at
+                        competitive prices.
+                    </p>
+
+                    <p>
+                        We specialize in pumps, nozzles and
+                        other spare parts, helping customers
+                        find the right parts for their needs.
+                    </p>
+
+                    <div class="about-features">
+
+                        <div>
+                            <strong>✓</strong>
+                            Quality Parts
+                        </div>
+
+                        <div>
+                            <strong>✓</strong>
+                            New & Second Hand
+                        </div>
+
+                        <div>
+                            <strong>✓</strong>
+                            Competitive Prices
+                        </div>
+
+                        <div>
+                            <strong>✓</strong>
+                            Customer Focused
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+
+        <!-- ================= CONTACT ================= -->
+
+        <section class="contact" id="contact">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span>GET IN TOUCH</span>
+
+                    <h2>
+                        Need a Spare Part?
+                    </h2>
+
+                    <p>
+                        Contact Thuba and ask about availability,
+                        prices and product details.
+                    </p>
+
+                </div>
+
+
+                <div class="contact-grid">
+
+                    <a href="#" class="contact-card">
+
+                        <span class="contact-icon">
+                            ☎
+                        </span>
+
+                        <h3>Call Us</h3>
+
+                        <p>
+                            Speak directly with our team.
+                        </p>
+
+                    </a>
+
+
+                    <a href="#" class="contact-card">
+
+                        <span class="contact-icon">
+                            ◉
+                        </span>
+
+                        <h3>WhatsApp</h3>
+
+                        <p>
+                            Send us an enquiry or order.
+                        </p>
+
+                    </a>
+
+
+                    <a href="#" class="contact-card">
+
+                        <span class="contact-icon">
+                            ✉
+                        </span>
+
+                        <h3>Email</h3>
+
+                        <p>
+                            Send us your enquiry.
+                        </p>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+            <!-- ================= LOCATION ================= -->
+
+        <section class="location">
+
+            <div class="container location-content">
+
+                <div>
+
+                    <span class="section-label">
+                        VISIT US
+                    </span>
+
+                    <h2>
+                        Find Thuba
+                    </h2>
+
+                    <p>
+                        We are located along Lubambashi Road,
+                        near Roto Tank.
+                    </p>
+
+                </div>
+
+                <a href="#contact" class="btn btn-primary">
+                    Get Directions
+                </a>
+
+            </div>
+
+        </section>
+
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="container footer-content">
+
+            <div>
+
+                <div class="footer-logo">
+                    THUBA
+                </div>
+
+                <p>
+                    Quality new and second-hand
+                    spare parts.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <a href="#home">Home</a>
+                <a href="#products">Products</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 Thuba. All rights reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+```
